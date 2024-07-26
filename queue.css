@@ -1,0 +1,85 @@
+#side{
+    height: 100vh;
+    background-color:#FBEEC1;
+}
+#homeload{
+    margin-left: 2rem;
+    background-color: #B0D6FF;
+    color: black;
+}
+#container div {
+    border: 0.3rem solid black;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.3rem;
+    word-wrap: break-word;
+}
+h3{
+    font-size: 1.5rem;
+}
+h1{
+   grid-column: span 4;
+   text-align: center;
+   font-size: 4rem;
+}
+#push{
+    width: 6rem;
+    height: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5rem;
+}
+#pop{
+    width: 6rem;
+    height: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5rem;
+}
+#homeload{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 20% auto;
+    background-color: #B0D6FF;
+}
+#value{
+    width: 6rem;
+    height: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5rem;
+    
+}
+#container {
+    display: flex;
+    column-gap: 0.2rem;
+    grid-column: span 2;
+}
+#guide{
+    width: 155px;
+    height: 48px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 33%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size:1rem;
+}
